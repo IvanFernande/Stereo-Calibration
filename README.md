@@ -5,8 +5,8 @@ This repository contains Python scripts designed for camera calibration, checkin
 
 ## Scripts Included
 
-- **calibration.py**: Captures video from stereo cameras and performs calibration using a chessboard pattern to find camera intrinsics and distortion coefficients.
 - **camera_check.py**: Checks the operational status of the connected cameras to ensure they are functional and capturing video streams correctly.
+- **calibration.py**: Captures video from stereo cameras and performs calibration using a chessboard pattern to find camera intrinsics and distortion coefficients.
 - **depth.py**: Uses the calibration data to compute the depth map from the stereo images, providing real-time depth perception.
 
 ## Installation
@@ -27,14 +27,6 @@ pip install numpy opencv-python
 
 Each script can be run independently depending on the task. Here is a brief on running each script:
 
-### Camera Calibration
-
-```bash
-python calibration.py
-```
-
-Follow the on-screen instructions to capture calibration images by pressing 'c'. Quit the program using 'q'.
-
 ### Camera Check
 
 ```bash
@@ -42,6 +34,14 @@ python camera_check.py
 ```
 
 This script will automatically check and display the video feed from the cameras.
+
+### Camera Calibration
+
+```bash
+python calibration.py
+```
+
+Follow the on-screen instructions to capture calibration images by pressing 'c'. Quit the program using 'q'.
 
 ### Depth Estimation
 
