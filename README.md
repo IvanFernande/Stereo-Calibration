@@ -14,7 +14,7 @@ This repository contains Python scripts designed for camera calibration, checkin
 Clone this repository to your local machine using:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/IvanFernande/Stereo-Calibration>
 ```
 
 Ensure you have Python installed, and install the required libraries:
