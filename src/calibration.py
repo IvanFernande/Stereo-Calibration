@@ -5,7 +5,7 @@ import json
 
 
 # Defining the size of the chessboard
-chessboard_size = (7, 9)
+chessboard_size = (7, 9) #number of squares - 1
 
 # Prepare 3D object points in real space (0,0,0), (1,0,0), (2,0,0) ..., as examples.
 objp = np.zeros((np.prod(chessboard_size), 3), np.float32)
